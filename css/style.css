@@ -2,3 +2,40 @@ img {
     height: 400px;
     width: 400px;
 }
+.topnav{
+    background-color: #422040;
+    overflow: hidden;
+}
+ 
+.topnav a {
+    float: left;
+    color: #D6DBB2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    color: #422040;
+    background-color: #BCD8C1;
+}
+.topnav a.active{
+    background-color:#E57A44;
+    color: #D6DBB2;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #422040;
+}
+body h1, h2, h3{
+color: #E57A44;
+font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+font-weight: bolder;
+}
+
+html {
+    background-color: #D6DBB2;
+}
